@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing_Baba]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="UploadAndDownload_test(failed)">
+    <classes>
+      <class name="test.UploadAndDownload_test">
+        <methods>
+          <include name="clickOnElement"/>
+          <include name="clickonuploaddownload"/>
+          <include name="clickonchose"/>
+          <include name="getLaunchtestingBaba"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.UploadAndDownload_test -->
+    </classes>
+  </test> <!-- UploadAndDownload_test(failed) -->
+</suite> <!-- Failed suite [Testing_Baba] -->
